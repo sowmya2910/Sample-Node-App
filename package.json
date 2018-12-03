@@ -1,0 +1,24 @@
+
+{
+  "name": "sample-nodejs-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Sowmya Ramakrishnan",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {},
+  "description": "This is the Sample Node.js app.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sowmya2910/Sample-Node-App.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sowmya2910/Sample-Node-App/issues"
+  },
+  "homepage": "https://github.com/sowmya2910/Sample-Node-App#readme"
+}
