@@ -1,10 +1,11 @@
+// server.js
 
-//server.js
 const express = require('express')
 const app = express()
 
-app.get('/',(req, res) => {
-	res.send('Hello World from a Node.js App!')
+app.get('/', (req, res) => {
+	res.send('Hello World from a Node.js app!')
+	res.status(200).json({status: 'ok'})
 })
 
 app.listen(3000, () => {
